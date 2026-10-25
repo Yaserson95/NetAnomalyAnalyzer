@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Net Anomaly Analyzer
+GenericName=Network Anomaly Detection
+Comment=Анализатор сетевых аномалий: захват трафика, правила, LLM-анализ
+Comment[ru_RU]=Анализатор сетевых аномалий: захват трафика, правила, LLM-анализ
+Exec=netanalyzer
+Icon=netanalyzer
+Terminal=false
+Categories=Network;Monitor;Security;
+Keywords=network;anomaly;capture;security;llm;
+StartupNotify=true

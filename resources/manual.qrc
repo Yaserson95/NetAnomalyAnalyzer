@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/help">
+        <file alias="manual.html">manual.html</file>
+        <file alias="manual_toc.html">manual_toc.html</file>
+        <file alias="manual_body.html">manual_body.html</file>
+    </qresource>
+</RCC>

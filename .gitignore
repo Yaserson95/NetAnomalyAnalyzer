@@ -1,0 +1,135 @@
+# ============================================================
+#  NetAnomalyAnalyzer / .gitignore
+# ============================================================
+
+# ---------- Каталоги сборки (CMake / Qt / CPack) ----------
+build/
+build-*/
+out/
+cmake-build-*/
+cmake-build-*.*/
+_CPack_Packages/
+.qt/
+.qmake.stash
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+*.ninja
+.ninja_deps
+.ninja_log
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.vcproj
+*.xcodeproj/
+
+# ---------- Qt Autogen / MOC / UIC / RCC ----------
+*_autogen/
+*_autogen.dir/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*.qch
+*.qhc
+*.qm
+*.ts
+
+# ---------- Объектные файлы и бинарники ----------
+*.o
+*.obj
+*.lo
+*.slo
+*.pch
+*.gch
+*.a
+*.lib
+*.la
+*.lai
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app/
+*.elf
+
+# ---------- Пакеты и инсталляторы (CPack/CPack WIX/DEB/RPM) ----------
+*.deb
+*.rpm
+*.msi
+*.wixobj
+*.wixpdb
+*.msm
+*.pkg
+*.dmg
+*.appx
+*.snap
+*.AppImage
+
+# ---------- Логи и временные данные ----------
+logs/
+*.log
+*.log.*
+*.trace
+*.pcap.tmp
+
+# ---------- Python (tools/) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- IDE / редакторы ----------
+.vscode/
+.idea/
+*.iml
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+*.autosave
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
+
+# ---------- ОС ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Прочее ----------
+*.bak
+*.tmp
+*.orig
+*.rej
+*.pid
+core
+core.*
+*.stackdump

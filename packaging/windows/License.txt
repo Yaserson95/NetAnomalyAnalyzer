@@ -1,0 +1,22 @@
+NetAnomalyAnalyzer - Network Anomaly Analyzer
+Copyright (c) 2026 NetAnalyzer Project
+
+This software is provided "as is", without warranty of any kind.
+Source code: see the NetAnomalyAnalyzer project repository.
+
+Third-party components
+----------------------
+This installation bundles the Qt library (The Qt Company Ltd.),
+distributed under the terms of the GNU Lesser General Public License,
+version 3 (LGPL-3.0). Qt sources: https://qt.io
+
+It also bundles runtime libraries of the MinGW compiler collection
+(GCC runtime libraries, GPL with the GCC Runtime Library Exception):
+https://gcc.gnu.org/
+
+Npcap (https://npcap.com) is NOT part of this package: install it
+separately for real packet capture. Without Npcap the application
+runs in demonstration mode with simulated traffic.
+
+Configuration files and logs are stored in:
+C:\ProgramData\NetAnalyzer\
